@@ -1,0 +1,57 @@
+  body {
+    background-image: radial-gradient(darkgreen, midnightblue, darkslateblue, darkmagenta);
+    color: lightgrey;
+}
+
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: thick;
+    width: 5%;
+  }
+
+
+  a:link {
+  color: springgreen;
+}
+
+/* visited link */
+a:visited {
+  color: greenyellow;
+}
+  @font-face {
+    font-family: myFirstFont;
+    src: url(/css/Exo2-Light.ttf);
+
+}
+
+  h2 {
+    color: ghostwhite
+  }
+
+    h3 {
+      color: gainsboro
+    }
+
+img {
+  filter: invert(0.8);
+}
+div {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%, 40% 40%);
+  animation: 4s poly infinite alternate ease-in-out;
+  margin: 10px auto;
+}
+
+@keyframes poly {
+  from {
+    clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%, 40% 40%);
+  }
+
+  to {
+    clip-path: polygon(50% 30%, 100% 0%, 70% 50%, 100% 100%, 50% 70%, 0% 100%, 30% 50%, 0% 0%);
+  }
+}
