@@ -20,6 +20,8 @@
 a:visited {
   color: greenyellow;
 }
+
+/* font change does not work */
   @font-face {
     font-family: myFirstFont;
     src: url(/css/Exo2-Light.ttf);
@@ -27,16 +29,22 @@ a:visited {
 }
 
   h2 {
-    color: ghostwhite
+    color: ghostwhite;
   }
 
     h3 {
-      color: gainsboro
+      color: gainsboro;
     }
 
 img {
   filter: invert(0.8);
 }
+
+.circle{
+  border-radius: 100%;
+}
+
+
 div {
   width: 300px;
   height: 300px;
